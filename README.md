@@ -44,20 +44,18 @@ API Rest para divulgação de dados sobre a vacinação no estado do Rio Grande 
 
 /api =>
  {
-	 [
-		cities: [
-			{
-				"ibge_code": number,
-				"name": string,
-				"population": number,
-				"registered_population": number, // in +vacine system
-				"vaccinated_population": number
-			} ...
-		],
-		total_population: number, // Population of RN
-		total_registered_population: number, // population of RN registered in +vacina system
-		total_vaccinated_population: number // population of RN vaccinated
-	] 
+	cities: [
+		{
+			"ibge_code": number,
+			"name": string,
+			"population": number,
+			"registered_population": number, // in +vacine system
+			"vaccinated_population": number
+		} ...
+	],
+	total_population: number, // Population of RN
+	total_registered_population: number, // population of RN registered in +vacina system
+	total_vaccinated_population: number // population of RN vaccinated
 }
 
 ```
