@@ -1,8 +1,17 @@
 {
   "name": "vacina-covid-rn",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.ts",
   "repository": "git@github.com:danielotaviano/vacina-covid-rn.git",
   "author": "Daniel Otaviano <danielpontes0@icloud.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev:start": "tsnd src/server.ts"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "ts-node-dev": "^1.1.1"
+  }
 }
