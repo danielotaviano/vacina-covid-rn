@@ -6,7 +6,9 @@
   "author": "Daniel Otaviano <danielpontes0@icloud.com>",
   "license": "MIT",
   "scripts": {
-    "dev:start": "tsnd src/main/server.ts"
+    "dev:start": "tsnd src/main/server.ts",
+    "build": "tsc",
+    "heroku": "node disc/main/server.js"
   },
   "devDependencies": {
     "@types/express": "^4.17.11",
